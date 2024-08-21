@@ -1,6 +1,6 @@
 const GoodsContent = document.querySelector(".goods");
 const cartList = document.querySelector(".c");
-const cartButton = document.getElementById("cart-button")
+const cartButton = document.getElementById("cart-button");
 fetch("./data.json", {
   method: "Get",
   headers: {
