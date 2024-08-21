@@ -36,8 +36,6 @@ fetch("./data.json", {
     cart.push(products);
   }
   
-
-
   const fruits = ['Apple', 'Banana', 'Cherry'];
 
 
