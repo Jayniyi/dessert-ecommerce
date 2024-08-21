@@ -1,0 +1,130 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-color: hsl(20, 50%, 98%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.continer {
+  padding: 2rem;
+}
+.continer h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 1rem;
+    font-size: 30px;
+}
+.goods img {
+  width: 100%;
+}
+.foods {
+  width: 60%;
+  margin: auto;
+}
+.card-contents h2{
+    font-size: 16px;
+}
+.cart-button{
+  cursor: pointer;
+  padding: .6rem;
+  border: none;
+  border-radius: 30px;
+  background-color: white ;
+  color: black;
+  font-weight: 600;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -1.5rem;
+  border: solid 1px hsl(14, 86%, 42%);
+}
+.cart-button p {
+  padding-top: .3rem;
+}
+.foods.active {
+  border: 2px solid blue; /* Border when the card is clicked */
+}
+
+.cart{
+  margin: auto;
+background-color: white;
+width: 70%;
+border-radius: 20px;
+padding: 1rem;
+/* height:35vh; */
+}
+.cart h1{
+color: red;
+}
+.cart p {
+text-align: center;
+color: rgb(255, 154, 154) ;
+}
+.cart img{
+margin: auto;
+display: flex;
+justify-content: center;
+}
+.cart-button2{
+  display: ;
+}
+@media (min-width: 1024px) {
+  .goods {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 60%;
+  }
+  .goods img {
+    width: 100%;
+    border-radius:20px ;
+  }
+  .foods {
+    width: 30%;
+  }
+  .cart-button{
+    padding: .6rem;
+    border: none;
+    border-radius: 30px;
+    background-color: white ;
+    color: black;
+    font-weight: 600;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -1.5rem;
+    border: solid 1px hsl(14, 86%, 42%);
+  }
+  .cart-button p {
+    padding-top: .3rem;
+  }
+  .foods.active {
+    border: 2px solid blue; /* Border when the card is clicked */
+}
+.continer{
+    display: flex;
+    gap: 2rem;
+}
+.cart{
+  margin: 0;
+  background-color: white;
+  width: 30%;
+  border-radius: 20px;
+  padding: 1rem;
+  height:35vh;
+}
+.cart h1{
+  color: red;
+}
+.cart p {
+  text-align: center;
+  color: rgb(255, 154, 154) ;
+}
+.cart img{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+}
