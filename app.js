@@ -33,7 +33,7 @@ fetch("./data.json", {
   });
 
   function addToCart (products){
-    cart.push(products)
+    cart.push(products);
   }
   
 
